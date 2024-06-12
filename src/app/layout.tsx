@@ -26,6 +26,9 @@ export default function RootLayout({
             defaultTheme="light"
             disableTransitionOnChange
           >
+            <div className='flex bg-red-600 w-full justify-center items-center h-6'>
+              <p className='text-white text-1xl'>this product is being developped by Synthron Lab</p>
+            </div>
             {children}
             <Toaster />
           </ThemeProvider>
